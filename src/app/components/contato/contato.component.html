@@ -14,13 +14,8 @@
   <div class="container-form">
     Fale conosco
     <form>
-      <div class="input">
-        <label for="nome">Nome</label>
-        <input type="text" placeholder="Informe seu nome...">
-      </div>
-      <div class="input">
-        <textarea name="Descrição" cols="10" rows="4" placeholder="Digite sua mensagem aqui..." ></textarea>
-      </div>
+      <app-input [exibirLabel]="true" label="Nome" placeholder="Informe seu nome..." />
+      <app-input [text]="false" placeholder="Digite sua mensagem aqui..." />
       <app-botao tipo="primary full-width" nome="Enviar mensagem" />
     </form>
   </div>

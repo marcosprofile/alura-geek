@@ -1,0 +1,10 @@
+<div class="input">
+  @if (exibirLabel) {
+    <label for="">{{ label }}</label>
+  }
+  @if (text) {
+    <input [class]="classe" type="text" [placeholder]="placeholder">
+  } @else {
+    <textarea name="" cols="10" rows="4" [placeholder]="placeholder"></textarea>
+  }
+</div>
