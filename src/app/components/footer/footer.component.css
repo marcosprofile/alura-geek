@@ -1,0 +1,11 @@
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 32px;
+  background-color: #FFFFFF;
+  color: #464646;
+
+  & strong {
+    color: #2A7AE4;
+  }
+}

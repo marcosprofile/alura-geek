@@ -4,6 +4,8 @@ import { BotaoComponent } from '../../components/botao/botao.component';
 import { ContainerComponent } from '../../components/container/container.component';
 import { HeroComponent } from '../../components/hero/hero.component';
 import { ProdutosComponent } from '../../components/produtos/produtos.component';
+import { ContatoComponent } from '../../components/contato/contato.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +15,9 @@ import { ProdutosComponent } from '../../components/produtos/produtos.component'
     HeaderComponent,
     BotaoComponent,
     HeroComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    ContatoComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

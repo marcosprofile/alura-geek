@@ -33,11 +33,11 @@
           outline: none;
         }
       }
-
     }
 
     & span {
       cursor: default;
+      color: #A2A2A2;
     }
   }
 }

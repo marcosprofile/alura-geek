@@ -1,0 +1,139 @@
+.contato {
+  background-color: #EAF2FD;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 64px 152px;
+
+  & .links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    & .logo {
+      display: none;
+    }
+
+    & .link {
+      text-decoration: none;
+      color: #464646;
+      transition: all .2s ease;
+
+      &:hover {
+        color: #2A7AE4;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  & .container-form {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #464646;
+    font-weight: 700;
+
+    & form {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      & .input {
+        position: relative;
+
+        & label {
+          position: absolute;
+          top: 8px;
+          left: 12px;
+          color: #A2A2A2;
+          font-size: 12px;
+          font-weight: 500;
+        }
+
+        & input, textarea {
+          border: none;
+          border-bottom: 1px solid #C8C8C8;
+          padding: 16px 12px;
+          min-height: 56px;
+          max-height: 200px;
+          border-radius: 4px 4px 0 0;
+          width: 100%;
+          font-size: 16px;
+          font-family: Inter, sans-serif;
+          transition: all .2s ease;
+          color: #464646;
+
+          &:focus {
+            outline: none;
+            border-color: #2A7AE4;
+          }
+        }
+
+        & input {
+          padding-top: 28px !important;
+          margin-bottom: 8px;
+        }
+
+        & textarea {
+          resize: vertical;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .contato {
+    padding: 32px !important;
+
+    & .logo {
+      display: none;
+    }
+
+    & .links {
+      width: 100%;
+      align-items: start;
+
+      & .logo {
+        display: block;
+        object-fit: contain;
+        height: 50px;
+      }
+    }
+
+    & .container-form {
+      max-width: 434px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contato {
+    padding: 16px !important;
+    flex-direction: column;
+
+    & .logo {
+      display: none;
+    }
+
+    & .links {
+      align-items: center;
+
+      & .logo {
+        display: block;
+        object-fit: contain;
+        height: 50px;
+      }
+    }
+
+    & .container-form {
+      margin-top: 32px;
+      max-width: unset;
+      width: 100%;
+    }
+  }
+}

@@ -8,7 +8,7 @@ section {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   section {
     padding: 16px !important;
   }

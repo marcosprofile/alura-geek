@@ -11,5 +11,5 @@ import { BotaoComponent } from '../../botao/botao.component';
 export class ProdutoComponent {
   @Input() src: string = ''
   @Input() nome: string = 'Produto XYZ'
-  @Input() preco: string = '60,00'
+  @Input() preco: string = 'R$ 60,00'
 }

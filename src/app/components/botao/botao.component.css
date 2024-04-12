@@ -46,8 +46,12 @@ button {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   button {
     min-width: 133px;
+  }
+
+  .full-width {
+    width: 100%;
   }
 }
