@@ -11,6 +11,7 @@ export class InputComponent {
   @Input() exibirLabel: boolean = false
   @Input() label: string = ''
   @Input() text: boolean = true
+  @Input() tipo: string = ''
   @Input() textarea: boolean = false
   @Input() placeholder: string = ''
   @Input() classe: string = ''

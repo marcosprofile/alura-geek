@@ -1,6 +1,8 @@
 <header class="header">
   <div class="header-left">
-    <img class="logo" src="assets/logo.png" alt="Logo">
+    <a [routerLink]="rota">
+      <img class="logo" src="assets/logo.png" alt="Logo">
+    </a>
     <div class="input">
       <input type="text" placeholder="O que deseja encontrar?">
       <span class="material-icons">search</span>
@@ -8,7 +10,7 @@
   </div>
 
   @if (telaInicial) {
-    <app-botao tipo="secondary" nome="Login" />
+    <app-botao tipo="secondary" nome="Login" rota="login" />
   }
 
   <span class="material-icons mobile-search">search</span>
