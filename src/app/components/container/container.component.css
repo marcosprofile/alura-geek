@@ -1,0 +1,15 @@
+section {
+  padding: 0 152px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 16px;
+  }
+}
