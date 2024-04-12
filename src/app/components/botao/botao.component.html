@@ -1,1 +1,7 @@
-<button [class]="tipo">{{ nome }}</button>
+<button [class]="tipo">
+  {{ nome }}
+
+  @if (exibirIcone) {
+    <span class="material-icons ">arrow_forward</span>
+  }
+</button>

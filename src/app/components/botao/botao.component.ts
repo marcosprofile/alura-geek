@@ -10,4 +10,5 @@ import { Component, Input } from '@angular/core';
 export class BotaoComponent {
   @Input() nome: string = '';
   @Input() tipo: string = 'primary';
+  @Input() exibirIcone: boolean = false
 }

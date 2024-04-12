@@ -3,6 +3,7 @@ import { HeaderComponent } from '../../components/header/header.component';
 import { BotaoComponent } from '../../components/botao/botao.component';
 import { ContainerComponent } from '../../components/container/container.component';
 import { HeroComponent } from '../../components/hero/hero.component';
+import { ProdutosComponent } from '../../components/produtos/produtos.component';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ import { HeroComponent } from '../../components/hero/hero.component';
     ContainerComponent,
     HeaderComponent,
     BotaoComponent,
-    HeroComponent
+    HeroComponent,
+    ProdutosComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

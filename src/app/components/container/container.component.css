@@ -2,14 +2,14 @@ section {
   padding: 0 152px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   section {
-    padding: 32px;
+    padding: 32px !important;
   }
 }
 
 @media (max-width: 600px) {
   section {
-    padding: 16px;
+    padding: 16px !important;
   }
 }

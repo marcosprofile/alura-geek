@@ -1,0 +1,21 @@
+.produto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  color: #464646;
+
+  & img {
+    width: 100%;
+  }
+
+  & .title {
+    font-size: 14px;
+  }
+
+  & .price {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+}
