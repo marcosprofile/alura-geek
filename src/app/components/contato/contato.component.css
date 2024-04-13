@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: start;
   padding: 64px 152px;
+  margin-bottom: 50px;
 
   & .links {
     display: flex;

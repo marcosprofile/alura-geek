@@ -1,9 +1,12 @@
 footer {
   text-align: center;
   width: 100%;
-  padding: 32px;
+  padding: 16px;
   background-color: #FFFFFF;
   color: #464646;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 8px 16px #00000025;
 
   & strong {
     color: #2A7AE4;
